@@ -1,0 +1,144 @@
+1. Vehicular Traffic — Daily rush hours, worst Oct–Feb; +50–90 AQI winter, +20–40 non-winter; peaks 3–5 hrs. Example: evenings rise 60–80 pts.
+2. Festival Traffic — 3–7 days pre-festival; +40–80 citywide, 100+ local; effects 3–10 days. Example: pre-Diwali AQI moves Moderate→Poor.
+3. Industrial Emissions — Year-round, peaks Nov–Apr; +80–120 pts; continuous; episodes can jump 160→280.
+4. Construction Dust — Year-round, worst Apr–Jun; +70–120 nearby, +40–80 citywide; lasts hours–weeks.
+5. Waste Burning — Oct–Feb; +50–80 local, +30–60 citywide; 6–48 hrs; repeated events sustain elevated AQI.
+6. Residential Fuel — Peaks Dec–Jan; +40–90 local, +30–70 citywide; night spikes recurring in cold spells.
+7. Stubble Burning — Oct 20–Nov 15; +200–300; 24–72 hrs major surges; repeated fires sustain winter AQI.
+8. Fertilizers/Pesticides — Apr–Jul; +30–50 citywide; seasonal gradual effect.
+9. Diwali Firecrackers — Late Oct–early Nov; +200–300 spike; 2–4 days lingering; immediate hours.
+10. Holi Bonfires — Mar 1–3 days; +50–100 local, +20–50 citywide; 1–2 days.
+11. New Year Fireworks — Dec 31–Jan 1; +100–150 pts; effects 1–3 days.
+12. Weddings/Elections — Nov–Feb, Apr–May; +30–100 local, +20–50 citywide; 1–3 days.
+13. Temperature Inversions — Nov–Jan; +150–300; 1–5 days; traps pollutants.
+14. Calm Winds — Frequent Nov; +80–250 when combined; hours–days.
+15. Humidity/Fog — Dec–Jan; +100–150; 2–3 days.
+16. Dust Storms — Apr–Jun; +150–250; 12–72 hrs.
+17. Summer Ozone — Apr–Jun afternoons; +30–80; daily peaks.
+18. Rain/Thunderstorms — Jul–Sep; −150–250; 12–36 hrs; immediate improvement.
+19. Monsoon Seasonal — Jun–Sep; −100–200; multi-week; sustained benefit.
+20. Lockdowns/Curfews — Policy-driven; −100–150; 7–14 days.
+21. Odd–Even Schemes — Short-term; −40–60 citywide; immediate while active.
+22. Accidental Fires — Year-round; +70–120 local, +40–80 citywide; hours–days.
+23. Chemical Leaks — Rare; +300–500 immediate; hours to days; health emergency.
+24. Greenery/Urban Forests — Multi-year; −20–40 local, −5–10% citywide; immediate to long-term improvement.
+
+January
+
+Week 1: 350–420
+
+Week 2: 320–400
+
+Week 3: 360–450
+
+Week 4: 340–430
+
+February
+
+Week 1: 280–360
+
+Week 2: 300–380
+
+Week 3: 310–400
+
+Week 4: 290–370
+
+March
+
+Week 1: 180–250
+
+Week 2: 170–240
+
+Week 3: 160–230
+
+Week 4: 150–220
+
+April
+
+Week 1: 120–180
+
+Week 2: 130–190
+
+Week 3: 110–170
+
+Week 4: 100–160
+
+May
+
+Week 1: 100–160
+
+Week 2: 110–170
+
+Week 3: 90–150
+
+Week 4: 80–140
+
+June
+
+Week 1: 60–120
+
+Week 2: 50–110
+
+Week 3: 60–120
+
+Week 4: 70–130
+
+July
+
+Week 1: 50–110
+
+Week 2: 60–120
+
+Week 3: 50–110
+
+Week 4: 40–100
+
+August
+
+Week 1: 50–110
+
+Week 2: 60–120
+
+Week 3: 50–110
+
+Week 4: 40–100
+
+September
+
+Week 1: 60–120
+
+Week 2: 70–130
+
+Week 3: 60–120
+
+Week 4: 80–140
+
+October
+
+Week 1: 150–230
+
+Week 2: 160–240
+
+Week 3: 170–250
+
+Week 4: 180–260
+
+November
+
+Week 1: 250–400
+
+Week 2: 300–450
+
+Week 3: 320–480
+
+Week 4: 350–500
+
+December
+
+Week 1: 350–450
+
+Week 2: 380–500
+
+Week 3: 400–520
+
+Week 4: 420–550

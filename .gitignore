@@ -1,0 +1,81 @@
+.env
+# ---- Model and Data Files ----
+*.pth
+*.pkl
+*.pt
+*.h5
+*.ckpt
+*.npz
+*.npy
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.feather
+*.joblib
+
+# ---- Logs, Outputs, and Cache ----
+*.log
+*.out
+*.err
+*.tmp
+*.bak
+*.swp
+*.swm
+*.swo
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.cache/
+logs/
+outputs/
+checkpoints/
+runs/
+wandb/
+mlruns/
+tensorboard/
+results/
+artifacts/
+data/
+datasets/
+
+# ---- Environment & Dependency Files ----
+.env
+.venv/
+venv/
+env/
+*.env
+Pipfile.lock
+poetry.lock
+
+# ---- IDE / Editor Settings ----
+.vscode/
+.idea/
+*.iml
+
+# ---- OS Files ----
+*.DS_Store
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ---- Build and Distribution ----
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# ---- Temporary and Backup ----
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.nbconvert.ipynb
