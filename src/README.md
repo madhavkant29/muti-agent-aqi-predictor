@@ -6,3 +6,7 @@ Provides:
 
 **Dataset used**
 Created from Openaq+Openmeteo (self made)
+
+**LLM used**
+mistral-7b-instruct-v0.2.Q4_K_M
+(quantized)
