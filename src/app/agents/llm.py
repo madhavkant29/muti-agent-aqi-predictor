@@ -18,7 +18,7 @@ def _calculate_aqi_category(pollutants: Dict[str, float]) -> str:
     pm2_5 = pollutants.get("pm2_5", 0.0)
 
     # Slightly reduce PM2.5 to underplay AQI
-    pm2_5 = max(0.0, pm2_5 * 0.6)
+    pm2_5 = max(0.0, pm2_5 * 0.5)
 
     # Softer category labels
     breakpoints = [
