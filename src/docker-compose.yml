@@ -1,8 +1,17 @@
 version: "3.9"
 
 services:
+  redis:
+    image: redis:7.2
+    container_name: weather_redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
   api:
-    build: .
+    build: .. 
     container_name: weather_api
     restart: always
     ports:
@@ -13,16 +22,21 @@ services:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
     volumes:
-      - .:/app
-
-  redis:
-    image: redis:7.2
-    container_name: weather_redis
+      - ..:/app
+      
+  frontend:
+    build: ..
+    container_name: weather_streamlit
     restart: always
     ports:
-      - "6379:6379"
+      - "8501:8501"
+    depends_on:
+      - api
+    environment:
+      - API_URL=http://api:8000
     volumes:
-      - redis_data:/data
+      - ..:/app
+    command: ["streamlit", "run", "src/app/streamlit_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
 volumes:
   redis_data:
