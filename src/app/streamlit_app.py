@@ -7,13 +7,13 @@ from datetime import datetime, date, time, timedelta
 API_URL = "http://127.0.0.1:8000/predict"
 
 st.set_page_config(page_title="AQI Assistant", layout="wide")
-st.title("🌫️ AQI Prediction Assistant")
+st.title(" AQI Prediction Assistant")
 st.markdown("Enter your question and select a **future date/time** for the forecast.")
 
 # --- Fixed Location (Delhi) ---
 LAT = 28.6139
 LON = 77.2090
-st.info(f"📍 Forecasting for Delhi, India (Lat: {LAT}, Lon: {LON})")
+st.info(f" Forecasting for Delhi, India (Lat: {LAT}, Lon: {LON})")
 
 # --- Dynamic Date and Time Input ---
 col1, col2 = st.columns(2)
@@ -45,7 +45,7 @@ dt_iso_str = prediction_dt.isoformat()
 
 st.markdown(f"**Selected Forecast Time (ISO):** `{dt_iso_str}`")
 
-submit = st.button("🚀 Get AQI Advice", type="primary")
+submit = st.button("Get AQI Advice", type="primary")
 
 if submit:
     # --- Prepare Payload ---
@@ -63,10 +63,10 @@ if submit:
             response.raise_for_status() # Raise an exception for bad status codes (4xx or 5xx)
             data = response.json()
 
-            st.success("✅ Advice fetched successfully!")
+            st.success(" Advice fetched successfully!")
             
             st.divider()
-            st.subheader("🤖 LLM Advice")
+            st.subheader(" LLM Advice")
             
             # Display the LLM's response using markdown for proper formatting
             advice_text = data.get("advice", "No advice returned. Check the server logs for errors.")
@@ -79,10 +79,10 @@ if submit:
                  st.json(data)
 
         except requests.exceptions.ConnectionError:
-            st.error(f"❌ Connection Error: Could not connect to the FastAPI server at {API_URL}. Please ensure your 'main.py' service is running locally.")
+            st.error(f" Connection Error: Could not connect to the FastAPI server at {API_URL}. Please ensure your 'main.py' service is running locally.")
         except requests.exceptions.HTTPError as e:
             # Handle errors returned by FastAPI (e.g., 500 from a pipeline failure)
             error_details = e.response.json().get('detail', 'No details available.')
-            st.error(f"❌ API Error ({e.response.status_code}): Pipeline execution failed. Details: {error_details}")
+            st.error(f" API Error ({e.response.status_code}): Pipeline execution failed. Details: {error_details}")
         except requests.exceptions.RequestException as e:
-            st.error(f"❌ An unexpected error occurred: {e}")
+            st.error(f" An unexpected error occurred: {e}")
