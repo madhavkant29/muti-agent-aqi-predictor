@@ -83,3 +83,80 @@ Input:
   "Category": "Unhealthy",
   "Explanation": "High PM2.5 levels due to low wind speed and high humidity. Sensitive groups should limit outdoor activity."
 }
+```
+
+
+
+# Application Setup & Run Guide
+
+This project uses **Redis**, **FastAPI (Uvicorn)**, and **Streamlit**.  
+Each service must be started in a **separate terminal** and in the correct order.
+
+---
+
+## Prerequisites
+
+- Python (with virtual environment already created)
+- Redis (Windows build)
+- All required Python dependencies installed
+
+---
+
+## Running the Application
+
+Follow the steps below to run the application locally.
+
+---
+
+### 1️. Activate Virtual Environment
+
+Open a terminal in the project root directory and run:
+
+```bash
+./venv/Scripts/activate
+```
+### 2️. Start Redis Server (Terminal 1)
+
+Navigate to the Redis installation directory and start the Redis server:
+```bash
+cd "C:\Users\{user}\Downloads\Redis-x64-3.0.504"
+.\redis-server.exe
+```
+
+  Important: Redis must be running before starting the backend services. Change the path accordingly
+
+### 3️. Start FastAPI Backend (Terminal 2)
+
+Open a new terminal, activate the virtual environment, and run:
+```bash
+uvicorn src.app.main:app --host 0.0.0.0 --port 8000
+```
+
+The FastAPI server will be available at:
+
+http://localhost:8000
+
+### 4️. Start Streamlit Frontend (Terminal 3)
+
+Open another terminal, activate the virtual environment, and run:
+```bash
+streamlit run src/app/streamlit_app.py
+```
+
+The Streamlit application will open automatically in your browser.
+
+## Recommended Startup Order
+
+Redis Server
+
+FastAPI Backend (Uvicorn)
+
+Streamlit Frontend
+
+## Notes
+
+All commands must be run in separate terminals
+
+Ensure the virtual environment is activated in each terminal
+
+This setup is optimized for Windows
