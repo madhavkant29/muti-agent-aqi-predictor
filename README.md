@@ -108,6 +108,30 @@ Follow the steps below to run the application locally.
 
 ---
 
+# Application Setup & Run Guide (Docker)
+
+This project is fully containerized using Docker and Docker Compose.
+No manual installation of Redis or Python dependencies is required.
+
+---
+
+## Prerequisites
+
+- Docker
+- Docker Compose (v2+)
+
+---
+
+## Running the Application
+
+From the project root directory:
+
+```bash
+docker compose up --build
+```
+
+#Handled automatically 
+
 ### 1️. Activate Virtual Environment
 
 Open a terminal in the project root directory and run:
